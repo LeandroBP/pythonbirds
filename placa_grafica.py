@@ -11,9 +11,9 @@ except:
     pass
 import select
 
-
 eh_windows = platform.system() == 'Windows'
 apagar_tela = lambda: os.system('cls') if eh_windows else lambda: os.system('clear')
+
 
 # workaround retirado de http://stackoverflow.com/questions/292095/polling-the-keyboard-in-python
 
