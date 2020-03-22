@@ -9,6 +9,10 @@ class Pessoa:
     def cumprimentar(self):
         return f'Olá {id(self)}'
 
+    @staticmethod
+    def metodo_estatico():
+        return 42
+
 
 if __name__ == '__main__':
     Leandro = Pessoa(nome='Leandro')
